@@ -2,7 +2,32 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic03 from '../images/pic03.jpg'
-import gatsby from '../images/gatsby-icon.png'
+import axios from '../images/axios.png'
+import bcrypt from '../images/bcrypt-logo.jpg'
+import bitbucket from '../images/bitbucket-icon.svg'
+import bugzilla from '../images/bugzilla-icon.svg'
+import cpp from '../images/cpp_logo.png'
+import css3 from '../images/css3-icon.svg'
+import elastic from '../images/elastic-icon.svg'
+import express from '../images/expressjs-icon.svg'
+import gatsby from '../images/gatsbyjs-icon.svg'
+import git from '../images/git-icon.svg'
+import github from '../images/github-icon.svg'
+import html5 from '../images/html5-icon.svg'
+import javascript from '../images/javascript-icon.svg'
+import jest from '../images/jest-icon.svg'
+import jira from '../images/jira-icon.svg'
+import linux from '../images/linux-icon.svg'
+import massive from '../images/massive.ico'
+import node from '../images/node-icon.svg'
+import postgres from '../images/postgresql-icon.svg'
+import pytest from '../images/pytest.png'
+import python from '../images/python-icon.svg'
+import react from '../images/react-icon.svg'
+import redux from '../images/redux-icon.svg'
+import selenium from '../images/selenium-icon.svg'
+import trello from '../images/trello-icon.svg'
+
 
 class Main extends React.Component {
   render() {
@@ -63,110 +88,118 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-          <h4>Languages</h4>
+          <h4 className="minor">Languages</h4>
           <div className="skills">
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={javascript} alt="javascript" />
               <p>JavaScript</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={html5} alt="html5" />
               <p>HTML5</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={css3} alt="css3" />
               <p>CSS3</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={python} alt="python" />
               <p>Python</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={cpp} alt="c++" />
               <p>C++</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
-              <p>Java</p>
-            </div>
-            <div className="skill-container">
-              <img src="" alt="" />
+              <img src={postgres} alt="postgresql" />
               <p>PostgresSQL</p>
             </div>
           </div>
-          <h4>Frameworks & Libraries</h4>
+          <h4 className="minor">Frameworks & Libraries</h4>
           <div className="skills">
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={react} alt="react" />
               <p>React</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={node} alt="node" />
               <p>Node.js</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={express} alt="express" />
               <p>Express.js</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={massive} alt="massive" />
               <p>Massive.js</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={redux} alt="redux" />
               <p>Redux.js</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={redux} alt="react redux" />
               <p>React Redux</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={selenium} alt="selenium" />
               <p>Selenium</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={pytest} alt="pytest" />
               <p>pytest</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={jest} alt="jest" />
               <p>Jest</p>
             </div>
           </div>
-          <h4>Extra Technologies</h4>
+          <h4 className="minor">Extra Technologies</h4>
           <div className="skills">
-            <div className="skill-container">
-              <img src={gatsby} alt="gatsby icon" />
-              <p>Gtasby.js</p>
+           <div className="skill-container">
+              <img src={linux} alt="linux" />
+              <p>Linux</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={axios} alt="axios" />
               <p>Axios</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={gatsby} alt="gatsby" />
+              <p>Gtasby.js</p>
+            </div>
+            <div className="skill-container">
+              <img src={bcrypt} alt="bcrypt" />
               <p>Brcypt</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={jira} alt="jira" />
               <p>JIRA</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={git} alt="git" />
               <p>Git</p>
             </div>
+             <div className="skill-container">
+              <img src={github} alt="github" />
+              <p>Github</p>
+            </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={bitbucket} alt="bitbucket" />
               <p>Bitbucket</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={bugzilla} alt="bugzilla" />
               <p>Bugzilla</p>
             </div>
             <div className="skill-container">
-              <img src="" alt="" />
+              <img src={elastic} alt="ELK stack" />
               <p>ELK Stack</p>
             </div>
+          </div>
+           <div className="skill-container">
+            <img src={trello} alt="trello" />
+            <p>Trello</p>
           </div>
           {close}
         </article>

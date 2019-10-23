@@ -82,6 +82,10 @@
 			padding-bottom: 0.5rem;
 			margin: 0 0 (_size(element-margin) * 1) 0;
 		}
+
+		&.minor {
+			text-align: center;;
+		}
 	}
 
 	h1 {
