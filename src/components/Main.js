@@ -2,6 +2,9 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic03 from '../images/pic03.jpg'
+import resume from '../static/McKay-Nelson-resume.pdf'
+
+// images for skills
 import axios from '../images/axios.png'
 import bcrypt from '../images/bcrypt-logo.jpg'
 import bitbucket from '../images/bitbucket-icon.svg'
@@ -166,7 +169,7 @@ class Main extends React.Component {
             </div>
             <div className="skill-container">
               <img src={gatsby} alt="gatsby" />
-              <p>Gtasby.js</p>
+              <p>Gatsby.js</p>
             </div>
             <div className="skill-container">
               <img src={bcrypt} alt="bcrypt" />
@@ -196,10 +199,10 @@ class Main extends React.Component {
               <img src={elastic} alt="ELK stack" />
               <p>ELK Stack</p>
             </div>
-          </div>
-           <div className="skill-container">
-            <img src={trello} alt="trello" />
-            <p>Trello</p>
+            <div className="skill-container">
+              <img src={trello} alt="trello" />
+              <p>Trello</p>
+            </div>
           </div>
           {close}
         </article>
@@ -230,30 +233,15 @@ class Main extends React.Component {
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            this.props.articleTimeout ? 'timeout' : '' }`}
           style={{ display: 'none' }}
         >
-          <ul className="icons">
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          <div className="contact">
+            <a href="mailto:tmckaynelson@gmail.com"><button className="contact-button"><span className="icon fa-envelope"></span> Email</button></a>
+            <a href="https://www.linkedin.com/in/mckay-nelson/"><button className="contact-button"><span className="icon fa-linkedin"></span> LinkedIn</button></a>
+            <a href="https://github.com/tmckaynelson"><button className="contact-button"><span className="icon fa-github"></span> Github</button></a>
+            <a href={resume} download><button className="contact-button"><span className="icon fa-save"></span> Resume</button></a>
+          </div>
           {close}
         </article>
       </div>

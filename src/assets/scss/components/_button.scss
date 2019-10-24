@@ -64,6 +64,12 @@
 			}
 		}
 
+		&.contact-button {
+			width: 150px;
+			box-sizing: content-box;
+			margin: 1rem 0;
+		}
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');

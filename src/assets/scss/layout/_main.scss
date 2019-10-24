@@ -110,6 +110,26 @@
 				width: 75px;
 				margin-bottom: 1rem;
 			}
+
+			.contact {
+				@include vendor('display', flex);
+				@include vendor('flex-direction', 'column');
+				@include vendor('justify-content', 'center');
+				@include vendor('align-items', 'center');
+			}
+
+			.contact > a {
+				border: none;
+			}
+		}
+
+		@include breakpoint(xlarge) {
+			article {
+				.skill-container > img {
+					height: 50px;
+					width: 50px;
+				}
+			}
 		}
 
 		@include breakpoint(small) {
