@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import me from '../images/me.jpg'
 import pic03 from '../images/pic03.jpg'
 import resume from '../static/McKay-Nelson-resume.pdf'
 
@@ -56,29 +56,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={me} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            I first discovered programming in college after some urging from close family members. Soon I discovered an intense love for it and drive to learn and understand it inside and out. For the first time in my life, I found myself wanting to do my homework. After working in the industry for a few years and going to college, I decided I needed to streamline my education and so I enrolled in and graduated from DevMountain, a web development bootcamp.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Outside of web development, I enjoy spending my time with family and friends. It does not matter much to me how the time is spent; whether it is hiking, playing video or board games, sports, watching movies, deep conversations or anything that helps me feel connected to them.
           </p>
           {close}
         </article>
@@ -215,19 +201,48 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+        
+          <h3>Inventario</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Inventario is a group developed website that provides a modern inventory tracker and warehouse management. With a minimal interface it makes warehouse employee's jobs easier
+            and the robust back end is able to handle multiple warehouses for each company with independent warehouse inventory.
+            My role within the group was mainly back end and database work but I did also help with the front end on a few pages.
           </p>
+          <h4>Technologies Used</h4>
+          <p>
+            React | Node.js | Express | Bcrypt | Material UI | HTML5 | CSS3 | Axios | PostgresSQL | Nodemailer
+          </p>
+          <p>Live site: <a href="http://gametracker.mckaynelson.com" target="_blank">gametracker.mckaynelson.com</a></p>
+          <p>Github repo: <a href="https://github.com/The-Ringers/Warehouse" target="_blank">github.com/The-Ringers/Warehouse</a></p>
+
+          <hr/>
+
+          <h3>Game Tracker</h3>
+          <p>
+            Game Tracker is a personally developed website that uses the IGDB API to track which games you own and have played as well as those you want to own and want to play.
+            The ideal for this website is for me to expand upon its current functionality and make it a social media based around video games; essentially a Goodreads for video games.
+          </p>
+          <h4>Technologies Used</h4>
+          <p>
+            React | Node.js | Express | Bcrypt | IGDB API | HTML5 | CSS3 | Axios | PostgresSQL
+          </p>
+          <p>Live site: <a href="http://gametracker.mckaynelson.com" target="_blank">gametracker.mckaynelson.com</a></p>
+          <p>Github repo: <a href="https://github.com/tmckaynelson/rgb-clan" target="_blank">github.com/tmckaynelson/rgb-clan</a></p>
           {close}
+
+          <hr/>
+
+          <h3>Kevin Bessey</h3>
+          <p>
+            A small website created for a musician. Basic front end to show tour dates to fans and provide links to his social media sites.
+            I added a backend for him to use so that he can update his own tour dates without having to change the code.
+          </p>
+          <h4>Technologies Used</h4>
+          <p>
+            React | Node.js | Express | Bcrypt | HTML5 | CSS3 | Axios | PostgresSQL
+          </p>
+          <p>Live site: <a href="http://kevinbessey.com" target="_blank">kevinbessey.com</a></p>
+          <p>Github repo: <a href="https://github.com/tmckaynelson/kevin-bessey-music" target="_blank">github.com/tmckaynelson/kevin-bessey-music</a></p>
         </article>
 
         <article
@@ -237,10 +252,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <div className="contact">
-            <a href="mailto:tmckaynelson@gmail.com"><button className="contact-button"><span className="icon fa-envelope"></span> Email</button></a>
-            <a href="https://www.linkedin.com/in/mckay-nelson/"><button className="contact-button"><span className="icon fa-linkedin"></span> LinkedIn</button></a>
-            <a href="https://github.com/tmckaynelson"><button className="contact-button"><span className="icon fa-github"></span> Github</button></a>
-            <a href={resume} download><button className="contact-button"><span className="icon fa-save"></span> Resume</button></a>
+            <a href="mailto:tmckaynelson@gmail.com" target="_blank"><button className="contact-button"><span className="icon fa-envelope"></span> Email</button></a>
+            <a href="https://www.linkedin.com/in/mckay-nelson/" target="_blank"><button className="contact-button"><span className="icon fa-linkedin"></span> LinkedIn</button></a>
+            <a href="https://github.com/tmckaynelson" target="_blank"><button className="contact-button"><span className="icon fa-github"></span> Github</button></a>
+            <a href={resume} download><button className="contact-button" target="_blank"><span className="icon fa-save"></span> Resume</button></a>
           </div>
           {close}
         </article>

@@ -118,7 +118,15 @@
 				@include vendor('align-items', 'center');
 			}
 
-			.contact > a {
+			a {
+				border: none;
+			}
+
+			a:hover {
+				border-bottom: solid 1px rgba(255, 255, 255, 0.5)
+			}
+
+			.contact a:hover {
 				border: none;
 			}
 		}

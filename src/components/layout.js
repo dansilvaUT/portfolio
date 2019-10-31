@@ -44,8 +44,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'A portfolio website for the full stack web developer McKay Nelson' },
+              { name: 'keywords', content: 'Shanghai China expat ex-pat web developer full stack react node front end back end star wars react node bcrypt express massive postgres postgressql javascript html5 css3 html css js reactjs nodejs' },
             ]}
             link={[
               { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${favicon16}` },

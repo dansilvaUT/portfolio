@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-empire"></span>
+            <a href="https://www.reddit.com/r/EmpireDidNothingWrong/" target="_blank"><span className="icon fa-empire"></span></a>
         </div>
         <div className="content">
             <div className="inner">
