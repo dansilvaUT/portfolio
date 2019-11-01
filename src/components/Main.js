@@ -61,10 +61,10 @@ class Main extends React.Component {
             <img src={me} alt="" />
           </span>
           <p>
-            I first discovered programming in college after some urging from close family members. Soon I discovered an intense love for it and drive to learn and understand it inside and out. For the first time in my life, I found myself wanting to do my homework. After working in the industry for a few years and going to college, I decided I needed to streamline my education and so I enrolled in and graduated from DevMountain, a web development bootcamp.
+            I first discovered programming in college, after some urging from close family members. Soon I discovered an intense love for it and was driven to learn and understand it, inside and out. For the first time in my life, I found myself wanting to do my homework. After working in the industry for a few years and going to college, I decided I needed to streamline my education and I enrolled in DevMountain, a web development bootcamp.
           </p>
           <p>
-            Outside of web development, I enjoy spending my time with family and friends. It does not matter much to me how the time is spent; whether it is hiking, playing video or board games, sports, watching movies, deep conversations or anything that helps me feel connected to them.
+            Outside of web development, I enjoy spending my time with family and friends. It does not matter much to me how the time is spent; whether it is hiking, playing video or board games, playing or watching sports, watching movies, having deep conversations or anything that helps me feel connected to them.
           </p>
           {close}
         </article>
@@ -204,9 +204,8 @@ class Main extends React.Component {
         
           <h3>Inventario</h3>
           <p>
-            Inventario is a group developed website that provides a modern inventory tracker and warehouse management. With a minimal interface it makes warehouse employee's jobs easier
-            and the robust back end is able to handle multiple warehouses for each company with independent warehouse inventory.
-            My role within the group was mainly back end and database work but I did also help with the front end on a few pages.
+            Inventario is a group-developed website that provides and warehouse management a modern inventory tracker. With a minimal interface, it makes warehouse employees' jobs easier, and the robust back-end is able to handle multiple warehouses with independent warehouse inventory.
+            My role within the group was mainly back-end and database work but I did assist with the front-end on a few pages.
           </p>
           <h4>Technologies Used</h4>
           <p>
@@ -219,8 +218,7 @@ class Main extends React.Component {
 
           <h3>Game Tracker</h3>
           <p>
-            Game Tracker is a personally developed website that uses the IGDB API to track which games you own and have played as well as those you want to own and want to play.
-            The ideal for this website is for me to expand upon its current functionality and make it a social media based around video games; essentially a Goodreads for video games.
+            Game Tracker is a personally-developed website which uses the IGDB API to track which games you own and have played, as well as those you want to own and play. The idea for this website is for me to expand upon its current functionality and make it a social media based around video games - essentially a Goodreads for video games.
           </p>
           <h4>Technologies Used</h4>
           <p>
@@ -235,7 +233,7 @@ class Main extends React.Component {
           <h3>Kevin Bessey</h3>
           <p>
             A small website created for a musician. Basic front end to show tour dates to fans and provide links to his social media sites.
-            I added a backend for him to use so that he can update his own tour dates without having to change the code.
+            I added a back-end for him to use so that he can update his own tour dates without having to change the code.
           </p>
           <h4>Technologies Used</h4>
           <p>
