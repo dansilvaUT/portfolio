@@ -211,7 +211,7 @@ class Main extends React.Component {
           <p>
             React | Node.js | Express | Bcrypt | Material UI | HTML5 | CSS3 | Axios | PostgresSQL | Nodemailer
           </p>
-          <p>Live site: <a href="http://gametracker.mckaynelson.com" target="_blank">gametracker.mckaynelson.com</a></p>
+          <p>Live site: <a href="http://167.71.147.170:8080/" target="_blank">167.71.147.170</a></p>
           <p>Github repo: <a href="https://github.com/The-Ringers/Warehouse" target="_blank">github.com/The-Ringers/Warehouse</a></p>
 
           <hr/>
@@ -224,7 +224,7 @@ class Main extends React.Component {
           <p>
             React | Node.js | Express | Bcrypt | IGDB API | HTML5 | CSS3 | Axios | PostgresSQL
           </p>
-          <p>Live site: <a href="http://gametracker.mckaynelson.com" target="_blank">gametracker.mckaynelson.com</a></p>
+          <p>Live site: <a href="http://167.71.254.138:8080/" target="_blank">167.71.254.138</a></p>
           <p>Github repo: <a href="https://github.com/tmckaynelson/rgb-clan" target="_blank">github.com/tmckaynelson/rgb-clan</a></p>
           {close}
 
