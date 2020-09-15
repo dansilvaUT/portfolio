@@ -43,6 +43,11 @@
 		&:hover {
 			border-bottom-color: transparent;
 		}
+
+		&.broken {
+			color: #ff0000;
+			text-decoration: line-through;
+		}
 	}
 
 	strong, b {
