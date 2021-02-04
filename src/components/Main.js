@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import me from '../images/new-me.jpg'
+import me from '../images/mckaynelson-profile-tinified.jpeg'
 import pic03 from '../images/pic03.jpg'
 import resume from '../static/McKay-Nelson-resume.pdf'
 
